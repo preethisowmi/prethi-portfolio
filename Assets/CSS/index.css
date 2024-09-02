@@ -14,6 +14,10 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    padding: 0 30px;
+    position: sticky;
+    z-index: 100;
+    top: 0;
 }
 .list{
     list-style: none;
@@ -127,6 +131,7 @@ span{
     height: 100%;
     justify-content: center;
     margin: 0 auto;
+    gap: 45px;
 }
 .content6{
     color:rgb(106, 106, 104) ;
@@ -159,10 +164,8 @@ span{
     display: flex;
     justify-content: center;
     font-weight: 600;
-    padding: 0 0 30px 0;
-    position: absolute;
-    top: 30%;
-    left: 43%;
+    position: relative;
+    bottom: 60%;
 }
 .character3{
     font-size: 20px;
@@ -257,10 +260,9 @@ span{
     display: flex;
     justify-content: center;
     font-weight: 600;
-    padding: 0 0 30px 0;
     position: absolute;
     top: 30%;
-    left: 45%;
+    left: 42%;
 }
 .heading{
     display: flex;
@@ -271,19 +273,22 @@ span{
     height: 100%;
     padding-bottom: 30px;
 }
+.heading-1{
+    width: 45%;
+    height: 100%;
+}
+.heading-2{
+    width: 45%;
+    height: 100%;
+}
 .heading1{
-    
     color: white;
     font-size: 25px;
-    display: flex;
-    justify-content: space-between;
     width: 100%;
 }
 .heading2{
     color: white;
     font-size: 25px;
-    display: flex;
-    justify-content: space-between;
     width: 100%;
 }
 .percentage{
@@ -348,6 +353,36 @@ span{
 }
 .calculate-skill{
     width: 65%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.calculate-skill-1{
+    width: 90%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.calculate-skill-2{
+    width: 80%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.calculate-skill-3{
+    width: 70%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.calculate-skill-4{
+    width: 60%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.calculate-skill-5{
+    width: 99%;
     height: 100%;
     background-color: aqua;
     border-radius: 10px;
@@ -530,7 +565,7 @@ span{
 .client-space{
     display: flex;
     padding-left: 40px;
-    padding-top: 20px;
+    padding-top: 50px;
     text-align: center;
 }
 .name{
@@ -558,6 +593,7 @@ span{
     height: 100%;
     display: flex;
     gap: 30px;
+    padding-top: 20px;
 }
 .client-4{
     color: white;
@@ -568,8 +604,10 @@ span{
     height: 90%;
 }
 .star-img{
-    height: 100%;
-    width: 100%;
+   color: yellow;
+   display: inline-flex;
+   gap:7px;
+   padding: 20px 10px 50px 30px;
 }
 .img{
     height: 100%;
@@ -613,6 +651,7 @@ span{
     height: 100%;
     justify-content:space-between;
     gap: 30px;
+    padding-bottom: 90px;
 }
 .address{
     color: white;
@@ -632,6 +671,7 @@ span{
     font-size: 23px;
     display: flex;
     gap: 10px;
+    padding-top: 20px;
 }
 .adrs-2{
     font-weight: 400;
@@ -683,6 +723,8 @@ span{
     background-color: rgb(73, 71, 71);
     border: 2px solid rgb(73, 71, 71);
     font-size: 18px;
+    color: white;
+    padding-left: 20px;
 }
 .mail{
     height: 80%;
@@ -691,6 +733,8 @@ span{
     background-color: rgb(73, 71, 71);
     border: 2px solid rgb(73, 71, 71);
     font-size: 18px;
+    color: white;
+    padding-left: 20px;
 }
 .input-2{
     height: 50%;
@@ -698,12 +742,15 @@ span{
     display: flex;
 }
 .textarea{
-    height: 30%;
+    height: 100%;
     width: 100%;
     border-radius: 10px;
     background-color: rgb(73, 71, 71);
     border: 2px solid rgb(73, 71, 71);
     font-size: 18px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 .charac-div{
     width: 100%;
@@ -731,7 +778,8 @@ span{
     display: flex;  
     width: 90%;
     margin: 0 auto;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-bottom: 30px;
 }
 
 .box-8{
@@ -742,20 +790,20 @@ span{
 .h-1{
     color: white;
     font-weight: 400;
+    padding-bottom: 15px;
 }
 .btn-1{
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 .footer{
     background-color: rgb(13, 13, 13);
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 150px;
-    justify-content: space-evenly;
-    text-align: center;
+    height: 20vh;
 }
 .footer-name{
     color: white;
@@ -764,6 +812,10 @@ span{
 .footer-div{
     display: flex;
     gap: 50%;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 60px;
 }
 .menu-ic{
     display: none;
@@ -787,6 +839,12 @@ span{
     }
     .character-10{
         left: 35%;
+    }
+    .content2{
+        left: 35%;
+    }
+    .footer{
+        height: 10vh;
     }
 }
 @media(max-width:600px){
