@@ -5,7 +5,7 @@
     font-family: "Rubik", sans-serif;
 }
 body{
-    background-color: rgb(27, 26, 26);
+    background-color: black;
 }
 .parent{
     width: 100%;
@@ -42,7 +42,7 @@ body{
     height: 50vh;
     width: 100%;
     border-radius: 50%;
-    border: 10px double aqua;
+    border: 5px solid aquamarine;
 }
 .picture{
     width: 30%;
@@ -53,7 +53,7 @@ body{
 .front-page{
     display: flex;
     width: 100%;
-    background-image: url();
+    background-image: url(https://www.freewebheaders.com/wp-content/gallery/high-tech-hero-headers/hi-tech-concepts-on-blue-background-hero-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -74,8 +74,8 @@ body{
     height: 50px;
     width: 120px;
     border: 2px solid aqua ;
-    color: aqua;
-    background-color: rgb(27, 26, 26);
+    color: rgb(12, 12, 12);
+    background-color: aqua;
     text-align: center;
 }
 .text1{
